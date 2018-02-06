@@ -1,0 +1,29 @@
+{
+  "name": "capitalization",
+  "version": "0.1.0",
+  "description": "A tool to capitalize and hyphenate strings.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "capitalize",
+    "hyphenate",
+    "ucfirst"
+  ],
+  "author": {
+    "name": "Ayon Lee",
+    "email": "i@hyurl.com",
+    "url": "http://hyurl.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyurl/capitalization.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hyurl/capitalization/issues",
+    "email": "i@hyurl.com"
+  },
+  "license": "MIT"
+}
