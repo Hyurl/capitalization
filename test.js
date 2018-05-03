@@ -1,5 +1,8 @@
-const { capitalize, hyphenate, ucfirst } = require("./");
-const assert = require("assert");
+var capitalization = require("./");
+var assert = require("assert");
+var capitalize = capitalization.capitalize;
+var hyphenate = capitalization.hyphenate;
+var ucfirst = capitalization.ucfirst;
 
 describe("capitalize()", () => {
     it("should produce string as expected", () => {
