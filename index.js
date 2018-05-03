@@ -1,11 +1,13 @@
 function capitalize(text, noHyphen = false) {
-    text = text.replace(/\b[a-z]/g, char => char.toUpperCase());
+    text = text.replace(/\b[a-z]/g, function (char) {
+        return char.toUpperCase();
+    });
     return noHyphen ? text.replace(/\-/g, "") : text;
 }
 
 function hyphenate(text, lowerCase = false) {
-    text = text.replace(/[A-Z]/g, char => {
-        return "-" + (lowerCase ? char.toLowerCase(): char);
+    text = text.replace(/[A-Z]/g, function (char) {
+        return "-" + (lowerCase ? char.toLowerCase() : char);
     });
     return text[0] === "-" ? text.substring(1) : text;
 }

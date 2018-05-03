@@ -1,6 +1,6 @@
 {
   "name": "capitalization",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tool to capitalize and hyphenate strings.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -25,5 +25,8 @@
     "url": "https://github.com/Hyurl/capitalization/issues",
     "email": "i@hyurl.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
 }
